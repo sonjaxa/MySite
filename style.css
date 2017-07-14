@@ -1,0 +1,24 @@
+h1, h2, h3, p, a {
+  color: white;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p, h2, h3 {
+  font-size: 25px;
+}
+
+h4 {
+  padding: 20px;
+}
+
+body {
+  background-image: url("http://img13.deviantart.net/0fed/i/2013/106/9/f/free_rainbow_background_by_xcheshire_rabbitx-d61zdn4.jpg");
+  border-style: double;
+  border-color: white;
+  border-width: 15px;
+}
+
+a {
+  color: hotpink;
+}
