@@ -1,24 +1,28 @@
-h1, h2, h3, p, a {
-  color: white;
+h1, h2, h3, h4, p, a {
+  color: hotpink;
   text-align: center;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-p, h2, h3 {
-  font-size: 25px;
+h1 {
+  font-size: 45px;
 }
 
-h4 {
-  padding: 20px;
+h2, h3, h4 {
+  font-size: 33px;
+}
+
+p {
+  font-size: 22px;
 }
 
 body {
-  background-image: url("http://img13.deviantart.net/0fed/i/2013/106/9/f/free_rainbow_background_by_xcheshire_rabbitx-d61zdn4.jpg");
+  background-image: url("myPhotos/rainbow.jpg");
   border-style: double;
   border-color: white;
   border-width: 15px;
 }
 
 a {
-  color: hotpink;
+  color: #b70080;
 }
