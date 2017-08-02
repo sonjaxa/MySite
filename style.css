@@ -5,7 +5,7 @@ h1, h2, h3, h4, p, a {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 44px;
 }
 
 h2, h3, h4 {
@@ -17,10 +17,10 @@ p {
 }
 
 body {
-  background-image: url("myPhotos/rainbow.jpg");
+  background-image: url("myPhotos/starspattern.png");
   border-style: double;
   border-color: white;
-  border-width: 15px;
+  border-width: 15px;3
 }
 
 a {

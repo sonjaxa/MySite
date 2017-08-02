@@ -6,10 +6,11 @@
   <title>About Sonja</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src = "myJava.js"></script>
 
 </head>
 
-<body>
+<body onload = "setupStart()">
 
 <!-- oh boy! -->
 
@@ -17,14 +18,19 @@
 
 <h2>Cat</h2>
 
-<h3>Dogs?</h3>
+<h3>Dogs<br>(clowns)</h3>
 
-<p title="I'm a paragraph">My first paragraph, followed by a cat:<br><br><img src="http://www.cats.org.uk/uploads/images/pages/photo_latest14.jpg" alt="cool cat" width="200"></p>
+<p title="I'm a paragraph">My first paragraph, followed by a cat:</p>
+<p><img id = "catPhoto" onmouseover = "changeSize(id)" onmouseout = "changeSizeBack(id)" src="myPhotos/cat1.jpg" alt="cool cat" width="200"></p>
 
 
-<p title="Oh Boy puppies!"> <a href="https://www.google.com/search?q=puppies&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj77N2b4onVAhULsVQKHdMNC00Q_AUIBigB&biw=1000&bih=642">This a link to puppies!<br><img src="http://www.bullytree.com/wp-content/uploads/2013/12/English-Bulldog-Puppy.jpg" width="200"></a></p>
+<p title="Oh Boy puppies!"> <a href="https://www.google.com/search?q=puppies&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj77N2b4onVAhULsVQKHdMNC00Q_AUIBigB&biw=1000&bih=642">This a link to puppies!</a></p>
+
+<p><img onmouseover = "changeSize(id)" onmouseout = "changeSizeBack(id)" id = "dogPhoto" src="myPhotos/dog1.jpg" width="200"></p>
 
 <h4><a href="morelinks.html">More Links!</a></h4>
+
+<p><img id = "firstClown" src = "myPhotos/uglyOne.png" width = "200"></p>
 
 </body>
 </html>
